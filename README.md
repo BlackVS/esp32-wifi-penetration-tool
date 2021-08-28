@@ -44,7 +44,11 @@ Project can be built in the usual ESP-IDF way:
 idf.py build
 ```
 
-Legacy method using `make` is not supported by this project.
+or just (support added by BlackVS)
+
+```shell
+make
+```
 
 ## Flash
 If you have setup ESP-IDF, the easiest way is to use `idf.py flash`.
