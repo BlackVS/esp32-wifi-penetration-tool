@@ -1,2 +1,4 @@
-idf_component_register(SRCS "attack_dos.c" "attack_method.c" "main.c" "attack_handshake.c" "attack_pmkid.c" "attack.c"
-                    INCLUDE_DIRS .)
+set(COMPONENT_ADD_INCLUDEDIRS . )
+set(COMPONENT_SRCDIRS . )
+
+register_component()
